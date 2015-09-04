@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=devide-width, initial-scale=1">
+	<title>Project 1 FEND</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial"/>
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="col-sm-3">
+				<img class="team-logo img-responsive center-block" src="images/AC_Milan.svg" alt="AC Milan Logo">
+			</div>
+			<div class="col-sm-6">
+				<h1>Paolo Maldini</h1>
+				<h2>Legendary Footballer</h2>
+			</div>
+			<div class="hidden-xs col-sm-3">
+				<img class="team-logo img-responsive center-block" src="images/FIGC_logo.svg" alt="FIGC Logo">
+			</div>
+		</div>
+	</header>
+
+	<hr id="top-ruler">
+
+	<main>
+
+		<section class="banner">
+			<div class="container">
+				<div class="col-sm-12">
+					<picture>
+						<source media="(min-width: 992px)" srcset="images/maldini_big.jpg" />
+						<source media="(min-width: 768px)" srcset="images/maldini_medium.jpg" />
+						<img  class="img-responsive center-block" src="images/maldini_small.jpg" alt="Paolo Maldini #3">
+					</picture>
+				</div>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container">
+				<div class="col-sm-12">
+					<h2>⚽ About ⚽</h2>
+				</div>
+				<div class="col-sm-4">
+					<picture>
+						<source media="(min-width: 768px) and (max-width: 991px)" srcset="images/story_medium.jpg" />
+						<img class="img-responsive center-block" id="story" src="images/story_big.jpg" data-toggle="modal" data-target="#modal-story" alt="Paolo tackles Ronaldo">
+					</picture>
+					<a href="https://en.wikipedia.org/wiki/Paolo_Maldini#Club_career"><h3>Story</h3></a>
+				</div>
+				<div class="col-sm-4">
+					<picture>
+						<source media="(min-width: 768px) and (max-width: 991px)" srcset="images/champ_medium.jpg" />
+						<img class="img-responsive center-block" src="images/champ_big.jpg" data-toggle="modal" data-target="#modal-trophies" alt="Paolo lifting the 2003 Champions League">
+					</picture>
+					<a href="https://en.wikipedia.org/wiki/Paolo_Maldini#Honours"><h3>Trophies</h3></a>
+				</div>
+				<div class="col-sm-4">
+					<picture>
+						<source media="(min-width: 768px) and (max-width: 991px)" srcset="images/miami_big.jpg" />
+						<img class="img-responsive center-block" id="miami" src="images/miami_big.jpg" data-toggle="modal" data-target="#modal-present" alt="Paolo signin for Miami FC">
+					</picture>
+					<a href="https://en.wikipedia.org/wiki/Paolo_Maldini#Retirement"><h3>Present</h3></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="stats">
+			<div class="container">
+				<div class="col-sm-12">
+					<h2>⚽ Career Stats ⚽</h2>
+				</div>
+				<div class="col-sm-12">
+					<table>
+						<tr>
+							<th>Team</th>
+							<th>Apps</th>
+							<th>Goals</th>
+						</tr>
+						<tr>
+							<td>Italy</td>
+							<td>126</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>AC Milan</td>
+							<td>902</td>
+							<td>33</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<hr id="bottom-ruler">
+
+	<footer>
+		<div class="container">
+			<div class="col-sm-4">
+				<a href="https://twitter.com/paolmaldini" class="zocial-twitter">Twitter</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://www.facebook.com/paolomaldiniofficial" class="zocial-facebook">Facebook</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://plus.google.com/111467449067607513298/posts" class="zocial-googleplus">Google+</a>
+			</div>
+	</div>
+	</footer>
+
+	<!-- Modals -->
+	<div class="modal fade" id="modal-story" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Story</h3>
+				</div>
+				<div class="modal-body">
+				<p>Paolo Cesare Maldini (born 26 June 1968) is an Italian former footballer who played as a left back or central defender for A.C. Milan and Italy national team. He spent all 25 seasons of his career at Serie A club A.C. Milan, before retiring at the age of 41 in 2009.<p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-trophies" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Trophies</h3>
+				</div>
+				<div class="modal-body">
+					<p>He won 26 trophies with Milan: the Champions League five times, seven Serie A titles, one Coppa Italia, five Supercoppa Italiana, five European Super Cups, two Intercontinental Cups, and one FIFA Club World Cup.<p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-present" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Present</h3>
+				</div>
+				<div class="modal-body">
+					<p>In May 2015, it was announced that Maldini became the co-owner of NASL club Miami FC, alongside television rights entrepreneur Riccardo Silva, in hope that the team would be able to join the MLS in future.<p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
